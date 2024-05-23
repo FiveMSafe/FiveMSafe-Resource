@@ -14,7 +14,7 @@ card = '{"type":"AdaptiveCard","$schema":"http://adaptivecards.io/schemas/adapti
 				       .. config.AdaptiveCards.Discord_Link
 				       .. '","style":"positive"}]}],"height":"stretch"},{"type":"Column","width":"stretch","items":[{"type":"ActionSet","actions":[{"type":"Action.OpenUrl","title":"Website","style":"positive","url":"'
 				       .. config.AdaptiveCards.Website_Link
-				       .. '"}]}]}]},{"type":"ActionSet","actions":[{"type":"Action.OpenUrl","title":"Click to join Cisco\'s Discord","style":"destructive","iconUrl":"https://i.imgur.com/XGREJcb.png","url":"https://cisco8114.com/discord"}]}],"style":"default","bleed":true,"height":"stretch","isVisible":true}]}'
+				       .. '"}]}]}]},{"type":"ActionSet","actions":[{"type":"Action.OpenUrl","title":"Click to join Cisco\'s Discord","style":"destructive","iconUrl":"https://cdn.cisco8114.com/u/cisco/WepheUL.png","url":"https://cisco8114.com/discord"}]}],"style":"default","bleed":true,"height":"stretch","isVisible":true}]}'
 
 AddEventHandler('playerConnecting', function(name, setKickReason, deferrals)
 	deferrals.defer();
