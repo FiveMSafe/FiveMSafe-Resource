@@ -1,6 +1,6 @@
 # FiveMSafe-Ban-Sync
 ## What is it? 
-API-Ban-Sync is a highly advanced FiveM script that will let you rest assured knowing that those trolls that you banned from your discord won't go and troll your FiveM server. This script will check against your API of choice (it is designed to work with the [FiveMSafe](https://FiveMSafe.cisco8114.com) API. This script also includes ***Adaptive Cards*** as well
+API-Ban-Sync is a highly advanced FiveM script that will let you rest assured knowing that those trolls that you banned from your discord won't go and troll your FiveM server. This script will check against your API of choice (it is designed to work with the [FiveMSafe](https://FiveMSafe.com) API. This script also includes ***Adaptive Cards*** as well
 
 ## Configuration 
 ```
@@ -19,7 +19,7 @@ config = {
     AdaptiveCards = {
         enabled = true, -- Would you like to enable adaptive cards?
         Website_Link = 'https://cisco8114.com', -- Your website link
-        Discord_Link = 'https://cisco8114.com/discord', -- Your discord link
+        Discord_Link = 'https://fivemsafe.com/discord', -- Your discord link
         Wait = 10,  -- How many seconds should splash page be shown for? (Max is 12)
         Header_IMG = 'https://cdn.cisco8114.com/u/cisco/WepheUL.png',
         Heading1 = "Welcome to [ServerName]",
@@ -32,4 +32,4 @@ config = {
 [Badger](https://github.com/jaredscar) - Created Badger Discord API 
 
 ## Photos
-![](https://cdn.cisco8114)
+![](https://cdn.cisco8114.com)
